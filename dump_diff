@@ -1,0 +1,2167 @@
+diff --git a/devices-twrp.dump b/devices-pmos.dump
+index 6c58153..7ad1583 100644
+--- a/devices-twrp.dump
++++ b/devices-pmos.dump
+@@ -301,7 +301,7 @@ noop deadline [cfq]
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0boot0/size
+ 8192
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0boot0/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     194        0    16336      340        0        0        0        0        0      340      340
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0boot0/uevent
+ MAJOR=179
+ MINOR=32
+@@ -401,7 +401,7 @@ noop deadline [cfq]
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0boot1/size
+ 8192
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0boot1/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     194        0    16336      430        0        0        0        0        0      420      430
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0boot1/uevent
+ MAJOR=179
+ MINOR=64
+@@ -425,7 +425,7 @@ NPARTS=0
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p1/start
+ 1024
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p1/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     194        1    16751      110        0        0        0        0        0      110      110
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p1/uevent
+ MAJOR=179
+ MINOR=1
+@@ -450,7 +450,7 @@ PARTNAME=proinfo
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p10/start
+ 207872
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p10/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     195        0    16695      420        0        0        0        0        0      310      420
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p10/uevent
+ MAJOR=179
+ MINOR=10
+@@ -475,7 +475,7 @@ PARTNAME=expdb
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p11/start
+ 228352
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p11/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     183        0    16199      130        0        0        0        0        0      100      130
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p11/uevent
+ MAJOR=179
+ MINOR=11
+@@ -500,7 +500,7 @@ PARTNAME=seccfg
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p12/start
+ 229376
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p12/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     187        2    16255      290        0        0        0        0        0      290      290
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p12/uevent
+ MAJOR=179
+ MINOR=12
+@@ -525,7 +525,7 @@ PARTNAME=oemkeystore
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p13/start
+ 233472
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p13/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     190        0    16255      170        0        0        0        0        0      160      170
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p13/uevent
+ MAJOR=179
+ MINOR=13
+@@ -550,7 +550,7 @@ PARTNAME=secro
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p14/start
+ 245760
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p14/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     191        0    16263      400        0        0        0        0        0      330      400
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p14/uevent
+ MAJOR=179
+ MINOR=14
+@@ -575,7 +575,7 @@ PARTNAME=keystore
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p15/start
+ 262144
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p15/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     190        1    16263      210        0        0        0        0        0      200      210
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p15/uevent
+ MAJOR=179
+ MINOR=15
+@@ -600,7 +600,7 @@ PARTNAME=tee1
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p16/start
+ 272384
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p16/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     190        1    16263      180        0        0        0        0        0      180      180
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p16/uevent
+ MAJOR=179
+ MINOR=16
+@@ -625,7 +625,7 @@ PARTNAME=tee2
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p17/start
+ 282624
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p17/stat
+-      19        0     1074       20        2        0       16        0        0       10       20
++     199        1    18191      150        0        0        0        0        0      150      150
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p17/uevent
+ MAJOR=179
+ MINOR=17
+@@ -650,7 +650,7 @@ PARTNAME=custom
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p18/start
+ 1331200
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p18/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     185        0    16215      240        0        0        0        0        0      230      230
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p18/uevent
+ MAJOR=179
+ MINOR=18
+@@ -675,7 +675,7 @@ PARTNAME=frp
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p19/start
+ 1333248
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p19/stat
+-      33        0     1186       30        2        0       16        0        0       20       30
++     195        0    16695      210        0        0        0        0        0      210      210
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p19/uevent
+ MAJOR=179
+ MINOR=19
+@@ -700,7 +700,7 @@ PARTNAME=nvdata
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p2/start
+ 7168
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p2/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     192        0    16271      200        0        0        0        0        0      170      200
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p2/uevent
+ MAJOR=179
+ MINOR=2
+@@ -725,7 +725,7 @@ PARTNAME=nvram
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p20/start
+ 1398784
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p20/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     195        0    16695      230        0        0        0        0        0      210      230
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p20/uevent
+ MAJOR=179
+ MINOR=20
+@@ -750,7 +750,7 @@ PARTNAME=metadata
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p21/start
+ 1474560
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p21/stat
+-      68        0     6224       40        0        0        0        0        0       40       40
++     977      613    77358      890       84      527     5122      570        0      730     1440
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p21/uevent
+ MAJOR=179
+ MINOR=21
+@@ -775,7 +775,7 @@ PARTNAME=system
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p22/start
+ 4620288
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p22/stat
+-      28        0     1282       40       26       17      672       70        0       90      110
++     193        0    18184      200        0        0        0        0        0      170      200
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p22/uevent
+ MAJOR=179
+ MINOR=22
+@@ -800,7 +800,7 @@ PARTNAME=cache
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p23/start
+ 5439488
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p23/stat
+-      24        0     1114       30        6        2       64       10        0       40       40
++     193        0    18184      140        0        0        0        0        0      120      130
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p23/uevent
+ MAJOR=179
+ MINOR=23
+@@ -825,7 +825,7 @@ PARTNAME=userdata
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p24/start
+ 30751744
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p24/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     189        0    16696      180        0        0        0        0        0      180      180
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p24/uevent
+ MAJOR=179
+ MINOR=24
+@@ -850,7 +850,7 @@ PARTNAME=flashinfo
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p3/start
+ 17408
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p3/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     194        1    16695      260        0        0        0        0        0      150      240
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p3/uevent
+ MAJOR=179
+ MINOR=3
+@@ -875,7 +875,7 @@ PARTNAME=protect1
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p4/start
+ 37888
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p4/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     194        1    16695      220        0        0        0        0        0      200      220
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p4/uevent
+ MAJOR=179
+ MINOR=4
+@@ -900,7 +900,7 @@ PARTNAME=protect2
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p5/start
+ 58368
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p5/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     181        2    16199      120        0        0        0        0        0      120      120
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p5/uevent
+ MAJOR=179
+ MINOR=5
+@@ -925,7 +925,7 @@ PARTNAME=lk
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p6/start
+ 59392
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p6/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     183        0    16199      170        0        0        0        0        0      140      150
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p6/uevent
+ MAJOR=179
+ MINOR=6
+@@ -950,7 +950,7 @@ PARTNAME=para
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p7/start
+ 60416
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p7/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     194        1    16695       80        0        0        0        0        0       70       80
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p7/uevent
+ MAJOR=179
+ MINOR=7
+@@ -975,7 +975,7 @@ PARTNAME=boot
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p8/start
+ 93184
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p8/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     195        0    16695      180        0        0        0        0        0      150      180
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p8/uevent
+ MAJOR=179
+ MINOR=8
+@@ -1000,7 +1000,7 @@ PARTNAME=recovery
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p9/start
+ 191488
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p9/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     190        1    16263      150        0        0        0        0        0      130      150
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p9/uevent
+ MAJOR=179
+ MINOR=9
+@@ -1099,7 +1099,7 @@ noop deadline [cfq]
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0rpmb/size
+ 8192
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0rpmb/stat
+-       0        0        0        0        0        0        0        0        0        0        0
++     132        0     1320        0        0        0        0        0        0        0        0
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0rpmb/uevent
+ MAJOR=179
+ MINOR=96
+@@ -1183,7 +1183,7 @@ noop deadline [cfq]
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/size
+ 30785536
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/stat
+-     175        0    10904      160       43       19      768       80        0      200      240
++    5442      626   465889     5570       95      527     5122      570        0     3230     6060
+ /sys/devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0/uevent
+ MAJOR=179
+ MINOR=0
+@@ -1280,7 +1280,7 @@ MODALIAS=of:Nmsdc0T<NULL>Cmediatek,mt6735-mmc
+ /sys/devices/mtk-msdc.0/11240000.msdc1/mmc_host/mmc1/mmc1:e624/block/mmcblk1/mmcblk1p1/start
+ 2048
+ /sys/devices/mtk-msdc.0/11240000.msdc1/mmc_host/mmc1/mmc1:e624/block/mmcblk1/mmcblk1p1/stat
+-      92     2168     2834      310        5        0        5       30        0      240      340
++     244        0    11232      940        0        0        0        0        0      750      940
+ /sys/devices/mtk-msdc.0/11240000.msdc1/mmc_host/mmc1/mmc1:e624/block/mmcblk1/mmcblk1p1/uevent
+ MAJOR=179
+ MINOR=129
+@@ -1364,7 +1364,7 @@ noop deadline [cfq]
+ /sys/devices/mtk-msdc.0/11240000.msdc1/mmc_host/mmc1/mmc1:e624/block/mmcblk1/size
+ 3862528
+ /sys/devices/mtk-msdc.0/11240000.msdc1/mmc_host/mmc1/mmc1:e624/block/mmcblk1/stat
+-      94     2168     2850      320        5        0        5       30        0      250      350
++     396        0    28128     2760        0        0        0        0        0     1980     2760
+ /sys/devices/mtk-msdc.0/11240000.msdc1/mmc_host/mmc1/mmc1:e624/block/mmcblk1/uevent
+ MAJOR=179
+ MINOR=128
+@@ -1563,7 +1563,7 @@ MODALIAS=platform:alarmtimer
+ /sys/devices/platform/battery/ADC_Channel_Is_Calibration
+ 0
+ /sys/devices/platform/battery/ADC_Charger_Voltage
+-4778
++4730
+ /sys/devices/platform/battery/Charger_TopOff_Value
+ 4110
+ /sys/devices/platform/battery/Charger_Type
+@@ -1571,9 +1571,9 @@ MODALIAS=platform:alarmtimer
+ /sys/devices/platform/battery/Charging_CallState
+ 0
+ /sys/devices/platform/battery/FG_Battery_CurrentConsumption
+-1208
++4677
+ /sys/devices/platform/battery/FG_SW_CoulombCounter
+-4
++21
+ /sys/devices/platform/battery/FG_daemon_disable
+ 0
+ /sys/devices/platform/battery/Power_Off_Voltage
+@@ -1602,7 +1602,7 @@ enabled
+ /sys/devices/platform/battery/power_supply/ac/power/wakeup_expire_count
+ 0
+ /sys/devices/platform/battery/power_supply/ac/power/wakeup_last_time_ms
+-2098
++1886
+ /sys/devices/platform/battery/power_supply/ac/power/wakeup_max_time_ms
+ 0
+ /sys/devices/platform/battery/power_supply/ac/power/wakeup_prevent_sleep_time_ms
+@@ -1617,13 +1617,13 @@ POWER_SUPPLY_ONLINE=0
+ /sys/devices/platform/battery/power_supply/battery/capacity
+ 22
+ /sys/devices/platform/battery/power_supply/battery/charge_avg
+-148400
++536400
+ /sys/devices/platform/battery/power_supply/battery/charge_counter
+ 516340
+ /sys/devices/platform/battery/power_supply/battery/charge_full
+ 2347000
+ /sys/devices/platform/battery/power_supply/battery/current_now
+-148400
++536400
+ /sys/devices/platform/battery/power_supply/battery/cycle_count
+ 0
+ /sys/devices/platform/battery/power_supply/battery/health
+@@ -1635,19 +1635,19 @@ enabled
+ /sys/devices/platform/battery/power_supply/battery/power/wakeup_active
+ 0
+ /sys/devices/platform/battery/power_supply/battery/power/wakeup_active_count
+-17
++8
+ /sys/devices/platform/battery/power_supply/battery/power/wakeup_count
+-17
++8
+ /sys/devices/platform/battery/power_supply/battery/power/wakeup_expire_count
+ 0
+ /sys/devices/platform/battery/power_supply/battery/power/wakeup_last_time_ms
+-105915
++125695
+ /sys/devices/platform/battery/power_supply/battery/power/wakeup_max_time_ms
+-13
++0
+ /sys/devices/platform/battery/power_supply/battery/power/wakeup_prevent_sleep_time_ms
+ 0
+ /sys/devices/platform/battery/power_supply/battery/power/wakeup_total_time_ms
+-20
++1
+ /sys/devices/platform/battery/power_supply/battery/present
+ 1
+ /sys/devices/platform/battery/power_supply/battery/status
+@@ -1655,7 +1655,7 @@ Charging
+ /sys/devices/platform/battery/power_supply/battery/technology
+ Li-ion
+ /sys/devices/platform/battery/power_supply/battery/temp
+-330
++340
+ /sys/devices/platform/battery/power_supply/battery/type
+ Battery
+ /sys/devices/platform/battery/power_supply/battery/uevent
+@@ -1665,15 +1665,15 @@ POWER_SUPPLY_HEALTH=Good
+ POWER_SUPPLY_PRESENT=1
+ POWER_SUPPLY_TECHNOLOGY=Li-ion
+ POWER_SUPPLY_CAPACITY=22
+-POWER_SUPPLY_CURRENT_NOW=148400
+-POWER_SUPPLY_VOLTAGE_NOW=3862000
++POWER_SUPPLY_CURRENT_NOW=536400
++POWER_SUPPLY_VOLTAGE_NOW=3915000
+ POWER_SUPPLY_CYCLE_COUNT=0
+-POWER_SUPPLY_CHARGE_AVG=148400
++POWER_SUPPLY_CHARGE_AVG=536400
+ POWER_SUPPLY_CHARGE_FULL=2347000
+ POWER_SUPPLY_CHARGE_COUNTER=516340
+-POWER_SUPPLY_TEMP=330
++POWER_SUPPLY_TEMP=340
+ /sys/devices/platform/battery/power_supply/battery/voltage_now
+-3862000
++3915000
+ /sys/devices/platform/battery/power_supply/usb/charge_counter
+ 2347000
+ /sys/devices/platform/battery/power_supply/usb/current_max
+@@ -1687,19 +1687,19 @@ enabled
+ /sys/devices/platform/battery/power_supply/usb/power/wakeup_active
+ 0
+ /sys/devices/platform/battery/power_supply/usb/power/wakeup_active_count
+-7
++2
+ /sys/devices/platform/battery/power_supply/usb/power/wakeup_count
+-7
++2
+ /sys/devices/platform/battery/power_supply/usb/power/wakeup_expire_count
+ 0
+ /sys/devices/platform/battery/power_supply/usb/power/wakeup_last_time_ms
+-64531
++1886
+ /sys/devices/platform/battery/power_supply/usb/power/wakeup_max_time_ms
+-12
++0
+ /sys/devices/platform/battery/power_supply/usb/power/wakeup_prevent_sleep_time_ms
+ 0
+ /sys/devices/platform/battery/power_supply/usb/power/wakeup_total_time_ms
+-18
++0
+ /sys/devices/platform/battery/power_supply/usb/type
+ USB
+ /sys/devices/platform/battery/power_supply/usb/uevent
+@@ -1725,7 +1725,7 @@ enabled
+ /sys/devices/platform/battery/power_supply/wireless/power/wakeup_expire_count
+ 0
+ /sys/devices/platform/battery/power_supply/wireless/power/wakeup_last_time_ms
+-2098
++1886
+ /sys/devices/platform/battery/power_supply/wireless/power/wakeup_max_time_ms
+ 0
+ /sys/devices/platform/battery/power_supply/wireless/power/wakeup_prevent_sleep_time_ms
+@@ -1745,21 +1745,21 @@ OF_COMPATIBLE_0=mediatek,battery
+ OF_COMPATIBLE_N=1
+ MODALIAS=of:Nbat_commT<NULL>Cmediatek,battery
+ /sys/devices/platform/battery_meter/FG_Current
+--1935
++-4748
+ /sys/devices/platform/battery_meter/FG_g_fg_dbg_bat_car
+-4
++21
+ /sys/devices/platform/battery_meter/FG_g_fg_dbg_bat_current
+--1484
++-5364
+ /sys/devices/platform/battery_meter/FG_g_fg_dbg_bat_qmax
+ 2347
+ /sys/devices/platform/battery_meter/FG_g_fg_dbg_bat_r
+-196
++200
+ /sys/devices/platform/battery_meter/FG_g_fg_dbg_bat_temp
+ 34
+ /sys/devices/platform/battery_meter/FG_g_fg_dbg_bat_volt
+-3842
++3953
+ /sys/devices/platform/battery_meter/FG_g_fg_dbg_bat_zcv
+-3811
++3840
+ /sys/devices/platform/battery_meter/FG_g_fg_dbg_d0
+ 78
+ /sys/devices/platform/battery_meter/FG_g_fg_dbg_d1
+@@ -1769,7 +1769,7 @@ MODALIAS=of:Nbat_commT<NULL>Cmediatek,battery
+ /sys/devices/platform/battery_meter/FG_g_fg_dbg_percentage_fg
+ 22
+ /sys/devices/platform/battery_meter/FG_g_fg_dbg_percentage_voltmode
+-23
++24
+ /sys/devices/platform/battery_meter/driver_override
+ (null)
+ /sys/devices/platform/battery_meter/modalias
+@@ -1819,7 +1819,7 @@ MODALIAS=platform:kd_camera_flashlight
+ /sys/devices/platform/leds-mt65xx/driver_override
+ (null)
+ /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
+-255
++0
+ /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/max_brightness
+ 255
+ /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/trigger
+@@ -1916,7 +1916,7 @@ MODALIAS=platform:mt-mem_bw
+ /sys/devices/platform/mt-pmic/BUCK_VPROC_STATUS
+ 1
+ /sys/devices/platform/mt-pmic/BUCK_VPROC_VOLTAGE
+-1075
++1012
+ /sys/devices/platform/mt-pmic/BUCK_VSYS22_STATUS
+ 1
+ /sys/devices/platform/mt-pmic/BUCK_VSYS22_VOLTAGE
+@@ -2046,11 +2046,11 @@ MODALIAS=platform:mt-mem_bw
+ /sys/devices/platform/mt-pmic/battery_percent_protect_ut
+ 0
+ /sys/devices/platform/mt-pmic/dlpt_level
+-3486
++4986
+ /sys/devices/platform/mt-pmic/dlpt_stop
+ 0
+ /sys/devices/platform/mt-pmic/dlpt_ut
+-3486
++4986
+ /sys/devices/platform/mt-pmic/driver_override
+ (null)
+ /sys/devices/platform/mt-pmic/low_battery_protect_level
+@@ -2544,7 +2544,7 @@ enabled
+ /sys/devices/platform/mt-rtc/power/wakeup_expire_count
+ 0
+ /sys/devices/platform/mt-rtc/power/wakeup_last_time_ms
+-1283
++486
+ /sys/devices/platform/mt-rtc/power/wakeup_max_time_ms
+ 0
+ /sys/devices/platform/mt-rtc/power/wakeup_prevent_sleep_time_ms
+@@ -2562,9 +2562,9 @@ enabled
+ /sys/devices/platform/mt-rtc/rtc/rtc0/name
+ mt-rtc
+ /sys/devices/platform/mt-rtc/rtc/rtc0/since_epoch
+-1626089468
++1626089832
+ /sys/devices/platform/mt-rtc/rtc/rtc0/time
+-11:31:08
++11:37:12
+ /sys/devices/platform/mt-rtc/rtc/rtc0/uevent
+ MAJOR=248
+ MINOR=0
+@@ -2602,19 +2602,19 @@ enabled
+ /sys/devices/platform/mt_usb/musb-hdrc.0.auto/dual_role_usb/dual-role-usb20/power/wakeup_active
+ 0
+ /sys/devices/platform/mt_usb/musb-hdrc.0.auto/dual_role_usb/dual-role-usb20/power/wakeup_active_count
+-4
++2
+ /sys/devices/platform/mt_usb/musb-hdrc.0.auto/dual_role_usb/dual-role-usb20/power/wakeup_count
+-6
++2
+ /sys/devices/platform/mt_usb/musb-hdrc.0.auto/dual_role_usb/dual-role-usb20/power/wakeup_expire_count
+-4
++2
+ /sys/devices/platform/mt_usb/musb-hdrc.0.auto/dual_role_usb/dual-role-usb20/power/wakeup_last_time_ms
+-66530
++6160
+ /sys/devices/platform/mt_usb/musb-hdrc.0.auto/dual_role_usb/dual-role-usb20/power/wakeup_max_time_ms
+-3408
++1993
+ /sys/devices/platform/mt_usb/musb-hdrc.0.auto/dual_role_usb/dual-role-usb20/power/wakeup_prevent_sleep_time_ms
+ 0
+ /sys/devices/platform/mt_usb/musb-hdrc.0.auto/dual_role_usb/dual-role-usb20/power/wakeup_total_time_ms
+-10732
++3981
+ /sys/devices/platform/mt_usb/musb-hdrc.0.auto/dual_role_usb/dual-role-usb20/power_role
+ sink
+ /sys/devices/platform/mt_usb/musb-hdrc.0.auto/dual_role_usb/dual-role-usb20/supported_modes
+@@ -2630,8 +2630,116 @@ DUAL_ROLE_DATA_ROLE=device
+ /sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/lun0/ro
+ 0
+ /sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/lun0/uevent
+-/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/suspended
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/addr_assign_type
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/addr_len
++6
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/address
++5a:ad:1b:c3:02:aa
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/broadcast
++ff:ff:ff:ff:ff:ff
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/carrier
+ 1
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/carrier_changes
++2
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/dev_id
++0x0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/dev_port
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/dormant
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/duplex
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/flags
++0x1003
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/ifalias
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/ifindex
++27
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/iflink
++27
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/link_mode
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/mtu
++1500
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/name_assign_type
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/netdev_group
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/operstate
++up
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/phys_port_id
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/queues/rx-0/rps_cpus
++00
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/queues/rx-0/rps_flow_cnt
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/queues/tx-0/byte_queue_limits/hold_time
++1000
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/queues/tx-0/byte_queue_limits/inflight
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/queues/tx-0/byte_queue_limits/limit
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/queues/tx-0/byte_queue_limits/limit_max
++1879048192
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/queues/tx-0/byte_queue_limits/limit_min
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/queues/tx-0/tx_timeout
++0/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/queues/tx-0/xps_cpus
++00
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/speed
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/collisions
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/multicast
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/rx_bytes
++31931
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/rx_compressed
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/rx_crc_errors
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/rx_dropped
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/rx_errors
++250
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/rx_fifo_errors
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/rx_frame_errors
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/rx_length_errors
++250
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/rx_missed_errors
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/rx_over_errors
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/rx_packets
++250
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/tx_aborted_errors
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/tx_bytes
++33702
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/tx_carrier_errors
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/tx_compressed
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/tx_dropped
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/tx_errors
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/tx_fifo_errors
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/tx_heartbeat_errors
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/tx_packets
++170
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/statistics/tx_window_errors
++0
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/tx_queue_len
++1000
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/type
++1
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/net/rndis0/uevent
++DEVTYPE=gadget
++INTERFACE=rndis0
++IFINDEX=27
++/sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/suspended
++0
+ /sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/uevent
+ /sys/devices/platform/mt_usb/musb-hdrc.0.auto/modalias
+ of:Nusb20T<NULL>Cmediatek,mt6735-usb20/sys/devices/platform/mt_usb/musb-hdrc.0.auto/pools
+@@ -2772,7 +2880,7 @@ Control
+ /sys/devices/platform/mt_usb/musb-hdrc.0.auto/usb1/ltm_capable
+ no
+ /sys/devices/platform/mt_usb/musb-hdrc.0.auto/usb1/manufacturer
+-Linux 3.18.119+ musb-hcd
++Linux 3.18.119 musb-hcd
+ /sys/devices/platform/mt_usb/musb-hdrc.0.auto/usb1/maxchild
+ 1
+ /sys/devices/platform/mt_usb/musb-hdrc.0.auto/usb1/power/wakeup
+@@ -3950,68 +4058,10 @@ MODALIAS=of:NgcpuT<NULL>Cmediatek,gcpu
+ (null)
+ /sys/devices/soc/10217000.gce/error
+ /sys/devices/soc/10217000.gce/log_level
+-0
+ /sys/devices/soc/10217000.gce/modalias
+ of:NgceT<NULL>Cmediatek,gce/sys/devices/soc/10217000.gce/profile_enable
+-0
+ /sys/devices/soc/10217000.gce/record
+- 131,(  144, 15, 0x000000000000,  1, 0, 416),(06, 04),(    0ns , 0, 0),(  157.606392,   34us,   16ms,   47us,   16ms, (0us, 0us, 0us)),  16ms
+- 130,(  144, 15, 0x000000000000,  1, 0, 416),(06, 04),(    0ns , 0, 0),(  155.586377,   33us,   13ms,   48us,   13ms, (0us, 0us, 0us)),  13ms
+- 129,(  144, 15, 0x000000000000,  1, 0, 416),(06, 04),(    0ns , 0, 0),(  153.576402,   36us,  670us,   51us,  705us, (0us, 0us, 0us)), 746us
+- 128,(  144, 15, 0x000000000000,  1, 0, 416),(06, 04),(    0ns , 0, 0),(  151.556384,   34us,   15ms,   49us,   15ms, (0us, 0us, 0us)),  15ms
+- 127,(  144, 15, 0x000000000000,  1, 0, 416),(06, 04),(    0ns , 0, 0),(  149.546390,   37us,    2ms,   50us,    2ms, (0us, 0us, 0us)),   2ms
+- 126,(  144, 15, 0x000000000000,  1, 0, 416),(06, 04),(    0ns , 0, 0),(  147.526370,   37us,   17ms,   51us,   17ms, (0us, 0us, 0us)),  17ms
+- 125,(  144, 15, 0x000000000000,  1, 0, 416),(06, 04),(    0ns , 0, 0),(  145.506370,   31us,   14ms,   45us,   14ms, (0us, 0us, 0us)),  14ms
+- 124,(  222,  1, 0x000002a3c000,  1, 0, 440),(00, 04),(    0ns , 0, 0),(  143.863618,   48us,   14ms,   62us,   14ms, (0us, 0us, 0us)),  14ms
+- 123,(  144, 15, 0x000000000000,  1, 0, 416),(06, 04),(    0ns , 0, 0),(  143.496373,   36us,    1ms,   51us,    1ms, (0us, 0us, 0us)),   1ms
+- 122,(  144, 15, 0x000000000000,  1, 0, 416),(06, 04),(    0ns , 0, 0),(  141.476448,   34us,   16ms,   48us,   16ms, (0us, 0us, 0us)),  16ms
+- 121,(  144, 15, 0x000000000000,  1, 0, 416),(06, 04),(    0ns , 0, 0),(  139.456378,   35us,   13ms,   49us,   13ms, (0us, 0us, 0us)),  13ms
+- 120,(  144, 15, 0x000000000000,  1, 0, 416),(06, 04),(    0ns , 0, 0),(  137.446388,   29us,  700us,   43us,  718us, (0us, 0us, 0us)), 752us
+- 119,(  222,  1, 0x000002a3c000,  1, 0, 440),(00, 04),(    0ns , 0, 0),(  137.316564,   45us,    9ms,   59us,    9ms, (0us, 0us, 0us)),   9ms
+- 118,(  222,  1, 0x000002a3c000,  1, 0, 440),(00, 04),(    0ns , 0, 0),(  137.278831,   42us,   12ms,   57us,   12ms, (0us, 0us, 0us)),  12ms
+- 117,(  222,  1, 0x000002a3c000,  1, 0, 440),(00, 04),(    0ns , 0, 0),(  137.223052,   42us,   16ms,   56us,   16ms, (0us, 0us, 0us)),  16ms
+- 116,(  222,  1, 0x000002a3c000,  1, 0, 440),(00, 04),(    0ns , 0, 0),(  137.070949,   45us,   12ms,   59us,   12ms, (0us, 0us, 0us)),  12ms
+- 115,(  222,  1, 0x000002a3c000,  1, 0, 440),(00, 04),(    0ns , 0, 0),(  137.019421,   44us,   12ms,   59us,   12ms, (0us, 0us, 0us)),  12ms
+- 114,(  222,  1, 0x000002a3c000,  1, 0, 440),(00, 04),(    0ns , 0, 0),(  136.967504,   48us,   12ms,   63us,   12ms, (0us, 0us, 0us)),  12ms
+- 113,(  222,  1, 0x000002a3c000,  1, 0, 440),(00, 04),(    0ns , 0, 0),(  136.915397,   44us,   12ms,   57us,   12ms, (0us, 0us, 0us)),  12ms
+- 112,(  222,  1, 0x000002a3c000,  1, 0, 440),(00, 04),(    0ns , 0, 0),(  136.863564,   46us,   12ms,   59us,   12ms, (0us, 0us, 0us)),  12ms
+- 111,(  222,  1, 0x000002a3c000,  1, 0, 440),(00, 04),(    0ns , 0, 0),(  136.812029,   44us,   12ms,   57us,   12ms, (0us, 0us, 0us)),  12ms
+- 110,(  222,  1, 0x000002a3c000,  1, 0, 440),(00, 04),(    0ns , 0, 0),(  136.759973,   46us,   12ms,   59us,   12ms, (0us, 0us, 0us)),  12ms
+- 109,(  222,  1, 0x000002a3c000,  1, 0, 440),(00, 04),(    0ns , 0, 0),(  136.707864,   44us,   12ms,   57us,   12ms, (0us, 0us, 0us)),  13ms
+- 108,(  222,  1, 0x000002a3c000,  1, 0, 440),(00, 04),(    0ns , 0, 0),(  136.655704,   46us,   13ms,   59us,   13ms, (0us, 0us, 0us)),  13ms
+- 107,(  222,  1, 0x000002a3c000,  1, 0, 440),(00, 04),(    0ns , 0, 0),(  136.603806,   44us,   13ms,   57us,   13ms, (0us, 0us, 0us)),  13ms
+- 106,(  222,  1, 0x000002a3c000,  1, 0, 440),(00, 04),(    0ns , 0, 0),(  136.551815,   46us,   13ms,   60us,   13ms, (0us, 0us, 0us)),  13ms
+- 105,(  222,  1, 0x000002a3c000,  1, 0, 440),(00, 04),(    0ns , 0, 0),(  136.499672,   61us,   13ms,   74us,   13ms, (0us, 0us, 0us)),  13ms
+- 104,(  222,  1, 0x000002a3c000,  1, 0, 440),(00, 04),(    0ns , 0, 0),(  136.447465,   44us,   13ms,   60us,   14ms, (0us, 0us, 0us)),  14ms
+- 103,(  222,  1, 0x000002a3c000,  1, 0, 440),(00, 04),(    0ns , 0, 0),(  136.395398,   46us,   14ms,   60us,   14ms, (/sys/devices/soc/10217000.gce/status
+-====== Clock Status =======
+-MT_CG_INFRA_GCE: 1
+-
+-====== DMA Mask Status =======
+-dma_set_mask result: 0
+-====== Engine Usage =======
+-ISP_IMGI: count 0, owner -1, fail: 0, reset: 0
+-MDP_RDMA0: count 0, owner -1, fail: 0, reset: 0
+-MDP_RDMA1: count 0, owner -1, fail: 0, reset: 0
+-MDP_RSZ0: count 0, owner -1, fail: 0, reset: 0
+-MDP_RSZ1: count 0, owner -1, fail: 0, reset: 0
+-MDP_RSZ2: count 0, owner -1, fail: 0, reset: 0
+-MDP_TDSHP0: count 0, owner -1, fail: 0, reset: 0
+-MDP_TDSHP1: count 0, owner -1, fail: 0, reset: 0
+-MDP_COLOR0: count 0, owner -1, fail: 0, reset: 0
+-MDP_WROT0: count 0, owner -1, fail: 0, reset: 0
+-MDP_WROT1: count 0, owner -1, fail: 0, reset: 0
+-MDP_WDMA: count 0, owner -1, fail: 0, reset: 0
+-====== Active Task(0) 0xffffffc077d33c40 Usage =======
+-State 1, VABase: 0xffffff80036b2000, MVABase: 0x0x00000000b3de8000, Size: 48
+-Scenario 11, Priority: 1, Flag: 0x00000000, VAEnd: 0xffffff80036b202c
+-Reoder:0, Trigger 133799450011, IRQ: 0x0, Wait: 0, Wake Up: 0
+-====== Total 1 Active Task =======
+-====== Total 0 Wait Task =======
+-====== Thread 7 Usage =======
+-Wait Cookie 1, Next Cookie 2
+-Slot: 7, Task: 0xffffffc077d33c40, Pid: 222, Name: recovery, Scn: 11, VABase: 0xffffff80036b2000, MVABase: 0x0x00000000b3de8000, Size: 48, Last Command: 0xb3de8000:0x10000001
+-PC(VA): 0xffffff80036b2000, 0x80008001:0x20000019 => Wait And Clear Event: CMDQ_EVENT_DISP_RDMA0_EOF
++/sys/devices/soc/10217000.gce/status
+ /sys/devices/soc/10217000.gce/uevent
+ DRIVER=mtk_cmdq
+ OF_NAME=gce
+@@ -4087,27 +4137,17 @@ MODALIAS=of:Nadc_hwT<NULL>Cmediatek,mt6735-auxadc
+ (null)
+ /sys/devices/soc/11002000.apuart0/modalias
+ of:Napuart0T<NULL>Cmediatek,mt6735-uart/sys/devices/soc/11002000.apuart0/tty/ttyMT0/close_delay
+-50
+ /sys/devices/soc/11002000.apuart0/tty/ttyMT0/closing_wait
+-3000
+ /sys/devices/soc/11002000.apuart0/tty/ttyMT0/custom_divisor
+-0
+ /sys/devices/soc/11002000.apuart0/tty/ttyMT0/dev
+ 204:209
+ /sys/devices/soc/11002000.apuart0/tty/ttyMT0/flags
+-0x10000000
+ /sys/devices/soc/11002000.apuart0/tty/ttyMT0/io_type
+-2
+ /sys/devices/soc/11002000.apuart0/tty/ttyMT0/iomem_base
+-0x11002000
+ /sys/devices/soc/11002000.apuart0/tty/ttyMT0/iomem_reg_shift
+-0
+ /sys/devices/soc/11002000.apuart0/tty/ttyMT0/irq
+-123
+ /sys/devices/soc/11002000.apuart0/tty/ttyMT0/line
+-0
+ /sys/devices/soc/11002000.apuart0/tty/ttyMT0/port
+-0x0
+ /sys/devices/soc/11002000.apuart0/tty/ttyMT0/power/wakeup
+ disabled
+ /sys/devices/soc/11002000.apuart0/tty/ttyMT0/power/wakeup_abort_count
+@@ -4129,15 +4169,12 @@ disabled
+ /sys/devices/soc/11002000.apuart0/tty/ttyMT0/power/wakeup_total_time_ms
+ 
+ /sys/devices/soc/11002000.apuart0/tty/ttyMT0/type
+-110
+ /sys/devices/soc/11002000.apuart0/tty/ttyMT0/uartclk
+-26000000
+ /sys/devices/soc/11002000.apuart0/tty/ttyMT0/uevent
+ MAJOR=204
+ MINOR=209
+ DEVNAME=ttyMT0
+ /sys/devices/soc/11002000.apuart0/tty/ttyMT0/xmit_fifo_size
+-16
+ /sys/devices/soc/11002000.apuart0/uevent
+ DRIVER=mtk-uart
+ OF_NAME=apuart0
+@@ -4149,27 +4186,17 @@ MODALIAS=of:Napuart0T<NULL>Cmediatek,mt6735-uart
+ (null)
+ /sys/devices/soc/11003000.apuart1/modalias
+ of:Napuart1T<NULL>Cmediatek,mt6735-uart/sys/devices/soc/11003000.apuart1/tty/ttyMT1/close_delay
+-50
+ /sys/devices/soc/11003000.apuart1/tty/ttyMT1/closing_wait
+-3000
+ /sys/devices/soc/11003000.apuart1/tty/ttyMT1/custom_divisor
+-0
+ /sys/devices/soc/11003000.apuart1/tty/ttyMT1/dev
+ 204:210
+ /sys/devices/soc/11003000.apuart1/tty/ttyMT1/flags
+-0x10000000
+ /sys/devices/soc/11003000.apuart1/tty/ttyMT1/io_type
+-2
+ /sys/devices/soc/11003000.apuart1/tty/ttyMT1/iomem_base
+-0x11003000
+ /sys/devices/soc/11003000.apuart1/tty/ttyMT1/iomem_reg_shift
+-0
+ /sys/devices/soc/11003000.apuart1/tty/ttyMT1/irq
+-124
+ /sys/devices/soc/11003000.apuart1/tty/ttyMT1/line
+-1
+ /sys/devices/soc/11003000.apuart1/tty/ttyMT1/port
+-0x0
+ /sys/devices/soc/11003000.apuart1/tty/ttyMT1/power/wakeup
+ disabled
+ /sys/devices/soc/11003000.apuart1/tty/ttyMT1/power/wakeup_abort_count
+@@ -4191,15 +4218,12 @@ disabled
+ /sys/devices/soc/11003000.apuart1/tty/ttyMT1/power/wakeup_total_time_ms
+ 
+ /sys/devices/soc/11003000.apuart1/tty/ttyMT1/type
+-110
+ /sys/devices/soc/11003000.apuart1/tty/ttyMT1/uartclk
+-26000000
+ /sys/devices/soc/11003000.apuart1/tty/ttyMT1/uevent
+ MAJOR=204
+ MINOR=210
+ DEVNAME=ttyMT1
+ /sys/devices/soc/11003000.apuart1/tty/ttyMT1/xmit_fifo_size
+-16
+ /sys/devices/soc/11003000.apuart1/uevent
+ DRIVER=mtk-uart
+ OF_NAME=apuart1
+@@ -4211,27 +4235,17 @@ MODALIAS=of:Napuart1T<NULL>Cmediatek,mt6735-uart
+ (null)
+ /sys/devices/soc/11004000.apuart2/modalias
+ of:Napuart2T<NULL>Cmediatek,mt6735-uart/sys/devices/soc/11004000.apuart2/tty/ttyMT2/close_delay
+-50
+ /sys/devices/soc/11004000.apuart2/tty/ttyMT2/closing_wait
+-3000
+ /sys/devices/soc/11004000.apuart2/tty/ttyMT2/custom_divisor
+-0
+ /sys/devices/soc/11004000.apuart2/tty/ttyMT2/dev
+ 204:211
+ /sys/devices/soc/11004000.apuart2/tty/ttyMT2/flags
+-0x10000000
+ /sys/devices/soc/11004000.apuart2/tty/ttyMT2/io_type
+-2
+ /sys/devices/soc/11004000.apuart2/tty/ttyMT2/iomem_base
+-0x11004000
+ /sys/devices/soc/11004000.apuart2/tty/ttyMT2/iomem_reg_shift
+-0
+ /sys/devices/soc/11004000.apuart2/tty/ttyMT2/irq
+-125
+ /sys/devices/soc/11004000.apuart2/tty/ttyMT2/line
+-2
+ /sys/devices/soc/11004000.apuart2/tty/ttyMT2/port
+-0x0
+ /sys/devices/soc/11004000.apuart2/tty/ttyMT2/power/wakeup
+ disabled
+ /sys/devices/soc/11004000.apuart2/tty/ttyMT2/power/wakeup_abort_count
+@@ -4253,15 +4267,12 @@ disabled
+ /sys/devices/soc/11004000.apuart2/tty/ttyMT2/power/wakeup_total_time_ms
+ 
+ /sys/devices/soc/11004000.apuart2/tty/ttyMT2/type
+-110
+ /sys/devices/soc/11004000.apuart2/tty/ttyMT2/uartclk
+-26000000
+ /sys/devices/soc/11004000.apuart2/tty/ttyMT2/uevent
+ MAJOR=204
+ MINOR=211
+ DEVNAME=ttyMT2
+ /sys/devices/soc/11004000.apuart2/tty/ttyMT2/xmit_fifo_size
+-16
+ /sys/devices/soc/11004000.apuart2/uevent
+ DRIVER=mtk-uart
+ OF_NAME=apuart2
+@@ -4273,27 +4284,17 @@ MODALIAS=of:Napuart2T<NULL>Cmediatek,mt6735-uart
+ (null)
+ /sys/devices/soc/11005000.apuart3/modalias
+ of:Napuart3T<NULL>Cmediatek,mt6735-uart/sys/devices/soc/11005000.apuart3/tty/ttyMT3/close_delay
+-50
+ /sys/devices/soc/11005000.apuart3/tty/ttyMT3/closing_wait
+-3000
+ /sys/devices/soc/11005000.apuart3/tty/ttyMT3/custom_divisor
+-0
+ /sys/devices/soc/11005000.apuart3/tty/ttyMT3/dev
+ 204:212
+ /sys/devices/soc/11005000.apuart3/tty/ttyMT3/flags
+-0x10000000
+ /sys/devices/soc/11005000.apuart3/tty/ttyMT3/io_type
+-2
+ /sys/devices/soc/11005000.apuart3/tty/ttyMT3/iomem_base
+-0x11005000
+ /sys/devices/soc/11005000.apuart3/tty/ttyMT3/iomem_reg_shift
+-0
+ /sys/devices/soc/11005000.apuart3/tty/ttyMT3/irq
+-126
+ /sys/devices/soc/11005000.apuart3/tty/ttyMT3/line
+-3
+ /sys/devices/soc/11005000.apuart3/tty/ttyMT3/port
+-0x0
+ /sys/devices/soc/11005000.apuart3/tty/ttyMT3/power/wakeup
+ disabled
+ /sys/devices/soc/11005000.apuart3/tty/ttyMT3/power/wakeup_abort_count
+@@ -4315,15 +4316,12 @@ disabled
+ /sys/devices/soc/11005000.apuart3/tty/ttyMT3/power/wakeup_total_time_ms
+ 
+ /sys/devices/soc/11005000.apuart3/tty/ttyMT3/type
+-110
+ /sys/devices/soc/11005000.apuart3/tty/ttyMT3/uartclk
+-26000000
+ /sys/devices/soc/11005000.apuart3/tty/ttyMT3/uevent
+ MAJOR=204
+ MINOR=212
+ DEVNAME=ttyMT3
+ /sys/devices/soc/11005000.apuart3/tty/ttyMT3/xmit_fifo_size
+-16
+ /sys/devices/soc/11005000.apuart3/uevent
+ DRIVER=mtk-uart
+ OF_NAME=apuart3
+@@ -4616,27 +4614,17 @@ MODALIAS=of:NbtifT<NULL>Cmediatek,btif
+ (null)
+ /sys/devices/soc/1100d000.apuart4/modalias
+ of:Napuart4T<NULL>Cmediatek,mt6735-uart/sys/devices/soc/1100d000.apuart4/tty/ttyMT4/close_delay
+-50
+ /sys/devices/soc/1100d000.apuart4/tty/ttyMT4/closing_wait
+-3000
+ /sys/devices/soc/1100d000.apuart4/tty/ttyMT4/custom_divisor
+-0
+ /sys/devices/soc/1100d000.apuart4/tty/ttyMT4/dev
+ 204:213
+ /sys/devices/soc/1100d000.apuart4/tty/ttyMT4/flags
+-0x10000000
+ /sys/devices/soc/1100d000.apuart4/tty/ttyMT4/io_type
+-2
+ /sys/devices/soc/1100d000.apuart4/tty/ttyMT4/iomem_base
+-0x1100D000
+ /sys/devices/soc/1100d000.apuart4/tty/ttyMT4/iomem_reg_shift
+-0
+ /sys/devices/soc/1100d000.apuart4/tty/ttyMT4/irq
+-127
+ /sys/devices/soc/1100d000.apuart4/tty/ttyMT4/line
+-4
+ /sys/devices/soc/1100d000.apuart4/tty/ttyMT4/port
+-0x0
+ /sys/devices/soc/1100d000.apuart4/tty/ttyMT4/power/wakeup
+ disabled
+ /sys/devices/soc/1100d000.apuart4/tty/ttyMT4/power/wakeup_abort_count
+@@ -4658,15 +4646,12 @@ disabled
+ /sys/devices/soc/1100d000.apuart4/tty/ttyMT4/power/wakeup_total_time_ms
+ 
+ /sys/devices/soc/1100d000.apuart4/tty/ttyMT4/type
+-110
+ /sys/devices/soc/1100d000.apuart4/tty/ttyMT4/uartclk
+-26000000
+ /sys/devices/soc/1100d000.apuart4/tty/ttyMT4/uevent
+ MAJOR=204
+ MINOR=213
+ DEVNAME=ttyMT4
+ /sys/devices/soc/1100d000.apuart4/tty/ttyMT4/xmit_fifo_size
+-16
+ /sys/devices/soc/1100d000.apuart4/uevent
+ DRIVER=mtk-uart
+ OF_NAME=apuart4
+@@ -5115,6 +5100,7 @@ MODALIAS=of:Nmdc2kT<NULL>Cmediatek,mdc2k
+ /sys/devices/soc/7e000000.mtkfb/graphics/fb0/dev
+ 29:0
+ /sys/devices/soc/7e000000.mtkfb/graphics/fb0/mode
++U:720x1280p-0
+ /sys/devices/soc/7e000000.mtkfb/graphics/fb0/modes
+ U:720x1280p-0
+ /sys/devices/soc/7e000000.mtkfb/graphics/fb0/name
+@@ -5132,7 +5118,7 @@ MAJOR=29
+ MINOR=0
+ DEVNAME=fb0
+ /sys/devices/soc/7e000000.mtkfb/graphics/fb0/virtual_size
+-736,2560
++720,1280
+ /sys/devices/soc/7e000000.mtkfb/modalias
+ of:NmtkfbT<NULL>Cmediatek,mtkfb/sys/devices/soc/7e000000.mtkfb/uevent
+ DRIVER=mtkfb
+@@ -5671,7 +5657,6 @@ mt6735-gpt
+ /sys/devices/system/cpu/cpu0/cpufreq/affected_cpus
+ 0 1
+ /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq
+-1040000
+ /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_max_freq
+ 1300000
+ /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_min_freq
+@@ -5685,7 +5670,7 @@ mt6735-gpt
+ /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_governors
+ ondemand userspace powersave interactive performance 
+ /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq
+-1040000
++299000
+ /sys/devices/system/cpu/cpu0/cpufreq/scaling_driver
+ mt-cpufreq
+ /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+@@ -5697,27 +5682,27 @@ interactive
+ /sys/devices/system/cpu/cpu0/cpufreq/scaling_setspeed
+ <unsupported>
+ /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state
+-1300000 1486
+-1235000 38
+-1170000 354
+-1040000 1393
+-819000 2066
+-598000 0
+-442000 2
+-299000 11677
++1300000 734
++1235000 0
++1170000 16
++1040000 26
++819000 41
++598000 22
++442000 184
++299000 16425
+ /sys/devices/system/cpu/cpu0/cpufreq/stats/total_trans
+-231
++71
+ /sys/devices/system/cpu/cpu0/cpufreq/stats/trans_table
+    From  :    To
+          :   1300000   1235000   1170000   1040000    819000    598000    442000    299000 
+-  1300000:         0         0         2         6         7         0         0        11 
+-  1235000:         2         0         0         1         2         0         0         0 
+-  1170000:         5         5         0         8        17         0         0         0 
+-  1040000:         6         0        33         0        44         0         0         0 
+-   819000:         2         0         0        68         0         0         0         0 
+-   598000:         0         0         0         0         0         0         0         0 
+-   442000:         1         0         0         0         0         0         0         0 
+-   299000:        10         0         0         0         0         0         1         0 
++  1300000:         0         0         0         3         2         0         1        11 
++  1235000:         0         0         0         0         0         0         0         0 
++  1170000:         1         0         0         0         1         0         0         0 
++  1040000:         1         0         2         0         1         0         0         0 
++   819000:         3         0         0         1         0         2         0         0 
++   598000:         0         0         0         0         1         0         2         0 
++   442000:         4         0         0         0         0         1         0        12 
++   299000:         8         0         0         0         0         0        14         0 
+ /sys/devices/system/cpu/cpu0/cpuidle/state0/desc
+ deepidle
+ /sys/devices/system/cpu/cpu0/cpuidle/state0/disable
+@@ -5763,9 +5748,9 @@ slidle
+ /sys/devices/system/cpu/cpu0/cpuidle/state2/residency
+ 1
+ /sys/devices/system/cpu/cpu0/cpuidle/state2/time
+-108143623
++134657534
+ /sys/devices/system/cpu/cpu0/cpuidle/state2/usage
+-37481
++30091
+ /sys/devices/system/cpu/cpu0/cpuidle/state3/desc
+ WFI
+ /sys/devices/system/cpu/cpu0/cpuidle/state3/disable
+@@ -5779,9 +5764,9 @@ rgidle
+ /sys/devices/system/cpu/cpu0/cpuidle/state3/residency
+ 1
+ /sys/devices/system/cpu/cpu0/cpuidle/state3/time
+-27621988
++17549208
+ /sys/devices/system/cpu/cpu0/cpuidle/state3/usage
+-20692
++26325
+ /sys/devices/system/cpu/cpu0/online
+ 1
+ /sys/devices/system/cpu/cpu0/topology/core_id
+@@ -5865,9 +5850,9 @@ rgidle
+ /sys/devices/system/cpu/cpu1/cpuidle/state3/residency
+ 1
+ /sys/devices/system/cpu/cpu1/cpuidle/state3/time
+-27271218
++14596509
+ /sys/devices/system/cpu/cpu1/cpuidle/state3/usage
+-19545
++21788
+ /sys/devices/system/cpu/cpu1/online
+ 1
+ /sys/devices/system/cpu/cpu1/topology/core_id
+@@ -5951,9 +5936,9 @@ rgidle
+ /sys/devices/system/cpu/cpu2/cpuidle/state3/residency
+ 1
+ /sys/devices/system/cpu/cpu2/cpuidle/state3/time
+-2899399
++2337499
+ /sys/devices/system/cpu/cpu2/cpuidle/state3/usage
+-2165
++2635
+ /sys/devices/system/cpu/cpu2/online
+ 0
+ /sys/devices/system/cpu/cpu2/uevent
+@@ -6025,9 +6010,9 @@ rgidle
+ /sys/devices/system/cpu/cpu3/cpuidle/state3/residency
+ 1
+ /sys/devices/system/cpu/cpu3/cpuidle/state3/time
+-475584
++918609
+ /sys/devices/system/cpu/cpu3/cpuidle/state3/usage
+-322
++1037
+ /sys/devices/system/cpu/cpu3/online
+ 0
+ /sys/devices/system/cpu/cpu3/uevent
+@@ -6040,14 +6025,14 @@ MODALIAS=cpu:type:aarch64:feature:,0000,0001,0002,0003,0004,0005,0006,0007
+ 
+ /sys/devices/system/cpu/cpufreq/all_time_in_state
+ freq		cpu0		cpu1		cpu2		cpu3		
+-299000		11677		11677		
+-442000		2		2		
+-598000		0		0		
+-819000		2168		2168		
+-1040000		1497		1497		
+-1170000		386		386		
+-1235000		48		48		
+-1300000		1486		1486		
++299000		16525		16525		
++442000		184		184		
++598000		22		22		
++819000		41		41		
++1040000		26		26		
++1170000		16		16		
++1235000		0		0		
++1300000		734		734		
+ /sys/devices/system/cpu/cpufreq/current_in_state
+ CPU0:1300000=0 1235000=0 1170000=0 1040000=0 819000=0 598000=0 442000=0 299000=0 
+ CPU1:1300000=0 1235000=0 1170000=0 1040000=0 819000=0 598000=0 442000=0 299000=0 
+@@ -6104,24 +6089,20 @@ cpu:type:aarch64:feature:,0000,0001,0002,0003,0004,0005,0006,0007
+ /sys/devices/system/cpu/present
+ 0-3
+ /sys/devices/system/cpu/rq-stats/cpu_normalized_load
+-cpu(0): load(rel/abs) = 49/40
+-cpu(1): load(rel/abs) = 54/43
++cpu(0): load(rel/abs) = 48/11
++cpu(1): load(rel/abs) = 61/14
+ cpu(2): load(rel/abs) = 0/0
+ cpu(3): load(rel/abs) = 0/0
+-htask_threshold=650, total_htask#=513
++htask_threshold=650, total_htask#=220
+ cluster0: current_htask#=1
+ /sys/devices/system/cpu/rq-stats/def_timer_ms
+-0
+ /sys/devices/system/cpu/rq-stats/hotplug_disable
+ 0
+ /sys/devices/system/cpu/rq-stats/htask_cpucap_ctrl
+ /sys/devices/system/cpu/rq-stats/htasks
+-htask_cpucap_ctrl=1, htask_threshold=650, total_htask#=515
+-cluster0: current_htask#=1
+ /sys/devices/system/cpu/rq-stats/run_queue_avg
+ 0.0
+ /sys/devices/system/cpu/rq-stats/run_queue_poll_ms
+-10
+ /sys/devices/system/cpu/uevent
+ /sys/devices/tracepoint/perf_event_mux_interval_ms
+ 0
+@@ -6166,7 +6147,7 @@ OF_COMPATIBLE_0=mediatek,mt6735-vcorefs
+ OF_COMPATIBLE_N=1
+ MODALIAS=of:NvcorefsT<NULL>Cmediatek,mt6735-vcorefs
+ /sys/devices/virtual/BOOT/BOOT/boot/boot_mode
+-2
++0
+ /sys/devices/virtual/BOOT/BOOT/dev
+ 254:0
+ /sys/devices/virtual/BOOT/BOOT/uevent
+@@ -6232,7 +6213,7 @@ ffff
+ 00:00:00:00:00:00
+ /sys/devices/virtual/android_usb/android0/f_eem/uevent
+ /sys/devices/virtual/android_usb/android0/f_ffs/aliases
+-adb
++
+ /sys/devices/virtual/android_usb/android0/f_ffs/uevent
+ /sys/devices/virtual/android_usb/android0/f_gser/port
+ 0
+@@ -6249,7 +6230,7 @@ Linux   File-Stor Gadget0318
+ /sys/devices/virtual/android_usb/android0/f_mtp/uevent
+ /sys/devices/virtual/android_usb/android0/f_ptp/uevent
+ /sys/devices/virtual/android_usb/android0/f_rndis/ethaddr
+-00:00:00:00:00:00
++9a:2c:51:28:b5:6b
+ /sys/devices/virtual/android_usb/android0/f_rndis/manufacturer
+ 
+ /sys/devices/virtual/android_usb/android0/f_rndis/uevent
+@@ -6258,12 +6239,12 @@ Linux   File-Stor Gadget0318
+ /sys/devices/virtual/android_usb/android0/f_rndis/wceis
+ 0
+ /sys/devices/virtual/android_usb/android0/functions
+-mtp,ffs
++rndis
+ /sys/devices/virtual/android_usb/android0/iManufacturer
+-Meizu/sys/devices/virtual/android_usb/android0/iProduct
+-M2/sys/devices/virtual/android_usb/android0/iSerial
+-88HKBN522BKJ/sys/devices/virtual/android_usb/android0/idProduct
+-4ee2
++Android/sys/devices/virtual/android_usb/android0/iProduct
++Android/sys/devices/virtual/android_usb/android0/iSerial
++0123456789ABCDEF/sys/devices/virtual/android_usb/android0/idProduct
++d001
+ /sys/devices/virtual/android_usb/android0/idVendor
+ 18d1
+ /sys/devices/virtual/android_usb/android0/log
+@@ -6315,6 +6296,24 @@ CONFIGURED
+ /sys/devices/virtual/bdi/179:96/stable_pages_required
+ 0
+ /sys/devices/virtual/bdi/179:96/uevent
++/sys/devices/virtual/bdi/252:0/max_ratio
++100
++/sys/devices/virtual/bdi/252:0/min_ratio
++0
++/sys/devices/virtual/bdi/252:0/read_ahead_kb
++128
++/sys/devices/virtual/bdi/252:0/stable_pages_required
++0
++/sys/devices/virtual/bdi/252:0/uevent
++/sys/devices/virtual/bdi/252:1/max_ratio
++100
++/sys/devices/virtual/bdi/252:1/min_ratio
++0
++/sys/devices/virtual/bdi/252:1/read_ahead_kb
++128
++/sys/devices/virtual/bdi/252:1/stable_pages_required
++0
++/sys/devices/virtual/bdi/252:1/uevent
+ /sys/devices/virtual/bdi/253:0/max_ratio
+ 100
+ /sys/devices/virtual/bdi/253:0/min_ratio
+@@ -6432,6 +6431,162 @@ CONFIGURED
+ /sys/devices/virtual/bdi/mtd-unmap/stable_pages_required
+ 0
+ /sys/devices/virtual/bdi/mtd-unmap/uevent
++/sys/devices/virtual/block/dm-0/alignment_offset
++0
++/sys/devices/virtual/block/dm-0/capability
++10
++/sys/devices/virtual/block/dm-0/dev
++252:0
++/sys/devices/virtual/block/dm-0/discard_alignment
++0
++/sys/devices/virtual/block/dm-0/dm/name
++mmcblk0p21p1
++/sys/devices/virtual/block/dm-0/dm/suspended
++0
++/sys/devices/virtual/block/dm-0/dm/uuid
++part1-devnode_179:21_Wh5pYvM
++/sys/devices/virtual/block/dm-0/ext_range
++1
++/sys/devices/virtual/block/dm-0/inflight
++       0        0
++/sys/devices/virtual/block/dm-0/queue/add_random
++0
++/sys/devices/virtual/block/dm-0/queue/discard_granularity
++524288
++/sys/devices/virtual/block/dm-0/queue/discard_max_bytes
++2199023255040
++/sys/devices/virtual/block/dm-0/queue/discard_zeroes_data
++0
++/sys/devices/virtual/block/dm-0/queue/hw_sector_size
++512
++/sys/devices/virtual/block/dm-0/queue/iostats
++0
++/sys/devices/virtual/block/dm-0/queue/logical_block_size
++512
++/sys/devices/virtual/block/dm-0/queue/max_hw_sectors_kb
++512
++/sys/devices/virtual/block/dm-0/queue/max_integrity_segments
++0
++/sys/devices/virtual/block/dm-0/queue/max_sectors_kb
++512
++/sys/devices/virtual/block/dm-0/queue/max_segment_size
++65024
++/sys/devices/virtual/block/dm-0/queue/max_segments
++1024
++/sys/devices/virtual/block/dm-0/queue/minimum_io_size
++512
++/sys/devices/virtual/block/dm-0/queue/nomerges
++0
++/sys/devices/virtual/block/dm-0/queue/nr_requests
++128
++/sys/devices/virtual/block/dm-0/queue/optimal_io_size
++0
++/sys/devices/virtual/block/dm-0/queue/physical_block_size
++512
++/sys/devices/virtual/block/dm-0/queue/read_ahead_kb
++128
++/sys/devices/virtual/block/dm-0/queue/rotational
++0
++/sys/devices/virtual/block/dm-0/queue/rq_affinity
++0
++/sys/devices/virtual/block/dm-0/queue/scheduler
++none
++/sys/devices/virtual/block/dm-0/queue/write_same_max_bytes
++0
++/sys/devices/virtual/block/dm-0/range
++1
++/sys/devices/virtual/block/dm-0/removable
++0
++/sys/devices/virtual/block/dm-0/ro
++0
++/sys/devices/virtual/block/dm-0/size
++192512
++/sys/devices/virtual/block/dm-0/stat
++     287        0    25700      320        1        0        2        0        0      150      320
++/sys/devices/virtual/block/dm-0/uevent
++MAJOR=252
++MINOR=0
++DEVNAME=dm-0
++DEVTYPE=disk
++NPARTS=0
++/sys/devices/virtual/block/dm-1/alignment_offset
++0
++/sys/devices/virtual/block/dm-1/capability
++10
++/sys/devices/virtual/block/dm-1/dev
++252:1
++/sys/devices/virtual/block/dm-1/discard_alignment
++0
++/sys/devices/virtual/block/dm-1/dm/name
++mmcblk0p21p2
++/sys/devices/virtual/block/dm-1/dm/suspended
++0
++/sys/devices/virtual/block/dm-1/dm/uuid
++part2-devnode_179:21_Wh5pYvM
++/sys/devices/virtual/block/dm-1/ext_range
++1
++/sys/devices/virtual/block/dm-1/inflight
++       0        0
++/sys/devices/virtual/block/dm-1/queue/add_random
++0
++/sys/devices/virtual/block/dm-1/queue/discard_granularity
++524288
++/sys/devices/virtual/block/dm-1/queue/discard_max_bytes
++2199023255040
++/sys/devices/virtual/block/dm-1/queue/discard_zeroes_data
++0
++/sys/devices/virtual/block/dm-1/queue/hw_sector_size
++512
++/sys/devices/virtual/block/dm-1/queue/iostats
++0
++/sys/devices/virtual/block/dm-1/queue/logical_block_size
++512
++/sys/devices/virtual/block/dm-1/queue/max_hw_sectors_kb
++512
++/sys/devices/virtual/block/dm-1/queue/max_integrity_segments
++0
++/sys/devices/virtual/block/dm-1/queue/max_sectors_kb
++512
++/sys/devices/virtual/block/dm-1/queue/max_segment_size
++65024
++/sys/devices/virtual/block/dm-1/queue/max_segments
++1024
++/sys/devices/virtual/block/dm-1/queue/minimum_io_size
++512
++/sys/devices/virtual/block/dm-1/queue/nomerges
++0
++/sys/devices/virtual/block/dm-1/queue/nr_requests
++128
++/sys/devices/virtual/block/dm-1/queue/optimal_io_size
++0
++/sys/devices/virtual/block/dm-1/queue/physical_block_size
++512
++/sys/devices/virtual/block/dm-1/queue/read_ahead_kb
++128
++/sys/devices/virtual/block/dm-1/queue/rotational
++0
++/sys/devices/virtual/block/dm-1/queue/rq_affinity
++0
++/sys/devices/virtual/block/dm-1/queue/scheduler
++none
++/sys/devices/virtual/block/dm-1/queue/write_same_max_bytes
++0
++/sys/devices/virtual/block/dm-1/range
++1
++/sys/devices/virtual/block/dm-1/removable
++0
++/sys/devices/virtual/block/dm-1/ro
++0
++/sys/devices/virtual/block/dm-1/size
++2951168
++/sys/devices/virtual/block/dm-1/stat
++    1234        0    45748     1110      629        0     5264     9680        0      490    10790
++/sys/devices/virtual/block/dm-1/uevent
++MAJOR=252
++MINOR=1
++DEVNAME=dm-1
++DEVTYPE=disk
++NPARTS=0
+ /sys/devices/virtual/block/loop0/alignment_offset
+ 0
+ /sys/devices/virtual/block/loop0/capability
+@@ -7450,8 +7605,8 @@ AW9201_ts
+ /sys/devices/virtual/input/input1/properties
+ 0
+ /sys/devices/virtual/input/input1/rawdata
+-\D6wdata:
+-1494, 
++\D8wdata:
++1496, 
+ /sys/devices/virtual/input/input1/uevent
+ PRODUCT=0/0/0/0
+ NAME="AW9201_ts"
+@@ -7765,7 +7920,7 @@ PIN: [MODE] [PULL_SEL] [DIN] [DOUT] [PULL EN] [DIR] [IES] [SMT] [DRIVING]
+  66:000010100
+  67:011010100
+  68:001010100
+- 69:101101100
++ 69:100101100
+  70:100010102
+  71:100010102
+  72:100010102
+@@ -7833,7 +7988,7 @@ PIN: [MODE] [PULL_SEL] [DIN] [DOUT] [PULL EN] [DIR] [IES] [SMT] [DRIVING]
+ 134:101001100
+ 135:100001100
+ 136:101001100
+-137:101000100
++137:100000100
+ 138:100000100
+ 139:100001100
+ 140:000011100
+@@ -7904,12 +8059,6 @@ PIN: [MODE] [PULL_SEL] [DIN] [DOUT] [PULL EN] [DIR] [IES] [SMT] [DRIVING]
+ MAJOR=10
+ MINOR=63
+ DEVNAME=mtgpio
+-/sys/devices/virtual/misc/mtklmk/dev
+-10:33
+-/sys/devices/virtual/misc/mtklmk/uevent
+-MAJOR=10
+-MINOR=33
+-DEVNAME=mtklmk
+ /sys/devices/virtual/misc/mtp_usb/dev
+ 10:37
+ /sys/devices/virtual/misc/mtp_usb/uevent
+@@ -8049,8 +8198,8 @@ DEVNAME=xt_qtaguid
+ /sys/devices/virtual/mtk-adc-cali/mtk-adc-cali/AUXADC_Channel_Is_Calibration
+ 0
+ /sys/devices/virtual/mtk-adc-cali/mtk-adc-cali/AUXADC_read_channel
+-channel[0]=0.25
+-channel[1]=0.22
++channel[0]=0.26
++channel[1]=0.23
+ channel[2]=0.0
+ channel[3]=0.0
+ channel[4]=0.0
+@@ -8079,7 +8228,7 @@ DEVNAME=mtk_disp_mgr
+ /sys/devices/virtual/net/ccmni0/addr_len
+ 6
+ /sys/devices/virtual/net/ccmni0/address
+-42:fd:fc:46:e2:74
++5e:73:4e:44:6a:12
+ /sys/devices/virtual/net/ccmni0/broadcast
+ ff:ff:ff:ff:ff:ff
+ /sys/devices/virtual/net/ccmni0/carrier
+@@ -8197,7 +8346,7 @@ IFINDEX=2
+ /sys/devices/virtual/net/ccmni1/addr_len
+ 6
+ /sys/devices/virtual/net/ccmni1/address
+-b2:77:44:ee:07:29
++1a:d3:3b:d8:14:46
+ /sys/devices/virtual/net/ccmni1/broadcast
+ ff:ff:ff:ff:ff:ff
+ /sys/devices/virtual/net/ccmni1/carrier
+@@ -8315,7 +8464,7 @@ IFINDEX=3
+ /sys/devices/virtual/net/ccmni10/addr_len
+ 6
+ /sys/devices/virtual/net/ccmni10/address
+-fa:dd:36:6a:b3:02
++6a:64:d4:eb:5b:6e
+ /sys/devices/virtual/net/ccmni10/broadcast
+ ff:ff:ff:ff:ff:ff
+ /sys/devices/virtual/net/ccmni10/carrier
+@@ -8433,7 +8582,7 @@ IFINDEX=12
+ /sys/devices/virtual/net/ccmni11/addr_len
+ 6
+ /sys/devices/virtual/net/ccmni11/address
+-46:71:49:29:c8:36
++b6:2c:05:5f:db:c0
+ /sys/devices/virtual/net/ccmni11/broadcast
+ ff:ff:ff:ff:ff:ff
+ /sys/devices/virtual/net/ccmni11/carrier
+@@ -8551,7 +8700,7 @@ IFINDEX=13
+ /sys/devices/virtual/net/ccmni12/addr_len
+ 6
+ /sys/devices/virtual/net/ccmni12/address
+-02:99:6c:24:64:9c
++36:5f:52:46:70:de
+ /sys/devices/virtual/net/ccmni12/broadcast
+ ff:ff:ff:ff:ff:ff
+ /sys/devices/virtual/net/ccmni12/carrier
+@@ -8669,7 +8818,7 @@ IFINDEX=14
+ /sys/devices/virtual/net/ccmni13/addr_len
+ 6
+ /sys/devices/virtual/net/ccmni13/address
+-62:85:c5:1e:62:fd
++9a:0b:35:77:c7:45
+ /sys/devices/virtual/net/ccmni13/broadcast
+ ff:ff:ff:ff:ff:ff
+ /sys/devices/virtual/net/ccmni13/carrier
+@@ -8787,7 +8936,7 @@ IFINDEX=15
+ /sys/devices/virtual/net/ccmni14/addr_len
+ 6
+ /sys/devices/virtual/net/ccmni14/address
+-be:71:c8:14:79:7b
++1a:ef:79:f6:9b:af
+ /sys/devices/virtual/net/ccmni14/broadcast
+ ff:ff:ff:ff:ff:ff
+ /sys/devices/virtual/net/ccmni14/carrier
+@@ -8905,7 +9054,7 @@ IFINDEX=16
+ /sys/devices/virtual/net/ccmni15/addr_len
+ 6
+ /sys/devices/virtual/net/ccmni15/address
+-a2:0a:88:6e:c7:3d
++62:af:c2:43:0c:87
+ /sys/devices/virtual/net/ccmni15/broadcast
+ ff:ff:ff:ff:ff:ff
+ /sys/devices/virtual/net/ccmni15/carrier
+@@ -9023,7 +9172,7 @@ IFINDEX=17
+ /sys/devices/virtual/net/ccmni16/addr_len
+ 6
+ /sys/devices/virtual/net/ccmni16/address
+-4e:25:01:56:a6:87
++86:99:1c:71:1d:2e
+ /sys/devices/virtual/net/ccmni16/broadcast
+ ff:ff:ff:ff:ff:ff
+ /sys/devices/virtual/net/ccmni16/carrier
+@@ -9141,7 +9290,7 @@ IFINDEX=18
+ /sys/devices/virtual/net/ccmni17/addr_len
+ 6
+ /sys/devices/virtual/net/ccmni17/address
+-ae:a2:10:c9:98:b0
++36:46:f5:0b:d5:ca
+ /sys/devices/virtual/net/ccmni17/broadcast
+ ff:ff:ff:ff:ff:ff
+ /sys/devices/virtual/net/ccmni17/carrier
+@@ -9259,7 +9408,7 @@ IFINDEX=19
+ /sys/devices/virtual/net/ccmni2/addr_len
+ 6
+ /sys/devices/virtual/net/ccmni2/address
+-da:8e:70:70:e7:2f
++66:b8:8f:eb:79:99
+ /sys/devices/virtual/net/ccmni2/broadcast
+ ff:ff:ff:ff:ff:ff
+ /sys/devices/virtual/net/ccmni2/carrier
+@@ -9377,7 +9526,7 @@ IFINDEX=4
+ /sys/devices/virtual/net/ccmni3/addr_len
+ 6
+ /sys/devices/virtual/net/ccmni3/address
+-7e:0f:b3:c9:94:81
++02:ae:12:20:4d:c1
+ /sys/devices/virtual/net/ccmni3/broadcast
+ ff:ff:ff:ff:ff:ff
+ /sys/devices/virtual/net/ccmni3/carrier
+@@ -9495,7 +9644,7 @@ IFINDEX=5
+ /sys/devices/virtual/net/ccmni4/addr_len
+ 6
+ /sys/devices/virtual/net/ccmni4/address
+-da:5c:b7:73:bc:66
++5a:22:c8:d8:4d:cc
+ /sys/devices/virtual/net/ccmni4/broadcast
+ ff:ff:ff:ff:ff:ff
+ /sys/devices/virtual/net/ccmni4/carrier
+@@ -9613,7 +9762,7 @@ IFINDEX=6
+ /sys/devices/virtual/net/ccmni5/addr_len
+ 6
+ /sys/devices/virtual/net/ccmni5/address
+-6e:2c:13:f8:2c:cb
++2a:e6:e3:6a:49:28
+ /sys/devices/virtual/net/ccmni5/broadcast
+ ff:ff:ff:ff:ff:ff
+ /sys/devices/virtual/net/ccmni5/carrier
+@@ -9731,7 +9880,7 @@ IFINDEX=7
+ /sys/devices/virtual/net/ccmni6/addr_len
+ 6
+ /sys/devices/virtual/net/ccmni6/address
+-1e:99:de:bd:1e:84
++82:80:cd:48:9b:c7
+ /sys/devices/virtual/net/ccmni6/broadcast
+ ff:ff:ff:ff:ff:ff
+ /sys/devices/virtual/net/ccmni6/carrier
+@@ -9849,7 +9998,7 @@ IFINDEX=8
+ /sys/devices/virtual/net/ccmni7/addr_len
+ 6
+ /sys/devices/virtual/net/ccmni7/address
+-ee:54:cf:de:9d:1e
++16:98:9d:78:34:49
+ /sys/devices/virtual/net/ccmni7/broadcast
+ ff:ff:ff:ff:ff:ff
+ /sys/devices/virtual/net/ccmni7/carrier
+@@ -9967,7 +10116,7 @@ IFINDEX=9
+ /sys/devices/virtual/net/ccmni8/addr_len
+ 6
+ /sys/devices/virtual/net/ccmni8/address
+-0e:b3:e7:8c:39:10
++4e:af:cb:2a:3d:7d
+ /sys/devices/virtual/net/ccmni8/broadcast
+ ff:ff:ff:ff:ff:ff
+ /sys/devices/virtual/net/ccmni8/carrier
+@@ -10085,7 +10234,7 @@ IFINDEX=10
+ /sys/devices/virtual/net/ccmni9/addr_len
+ 6
+ /sys/devices/virtual/net/ccmni9/address
+-ca:87:35:47:06:6f
++b2:58:1a:40:55:42
+ /sys/devices/virtual/net/ccmni9/broadcast
+ ff:ff:ff:ff:ff:ff
+ /sys/devices/virtual/net/ccmni9/carrier
+@@ -10203,7 +10352,7 @@ IFINDEX=11
+ /sys/devices/virtual/net/ifb0/addr_len
+ 6
+ /sys/devices/virtual/net/ifb0/address
+-e6:0e:9b:e9:5d:44
++5a:1b:60:80:65:95
+ /sys/devices/virtual/net/ifb0/broadcast
+ ff:ff:ff:ff:ff:ff
+ /sys/devices/virtual/net/ifb0/carrier
+@@ -10308,7 +10457,7 @@ IFINDEX=20
+ /sys/devices/virtual/net/ifb1/addr_len
+ 6
+ /sys/devices/virtual/net/ifb1/address
+-42:ec:eb:4e:af:f0
++82:45:ca:85:c2:33
+ /sys/devices/virtual/net/ifb1/broadcast
+ ff:ff:ff:ff:ff:ff
+ /sys/devices/virtual/net/ifb1/carrier
+@@ -10732,7 +10881,6 @@ IFINDEX=23
+ /sys/devices/virtual/net/lo/broadcast
+ 00:00:00:00:00:00
+ /sys/devices/virtual/net/lo/carrier
+-1
+ /sys/devices/virtual/net/lo/carrier_changes
+ 0
+ /sys/devices/virtual/net/lo/dev_id
+@@ -10740,10 +10888,9 @@ IFINDEX=23
+ /sys/devices/virtual/net/lo/dev_port
+ 0
+ /sys/devices/virtual/net/lo/dormant
+-0
+ /sys/devices/virtual/net/lo/duplex
+ /sys/devices/virtual/net/lo/flags
+-0x9
++0x8
+ /sys/devices/virtual/net/lo/ifalias
+ /sys/devices/virtual/net/lo/ifindex
+ 1
+@@ -10757,7 +10904,7 @@ IFINDEX=23
+ /sys/devices/virtual/net/lo/netdev_group
+ 0
+ /sys/devices/virtual/net/lo/operstate
+-unknown
++down
+ /sys/devices/virtual/net/lo/phys_port_id
+ /sys/devices/virtual/net/lo/queues/rx-0/rps_cpus
+ 00
+@@ -11698,7 +11845,7 @@ disabled
+ /sys/devices/virtual/thermal/thermal_zone0/policy
+ backward_compatible
+ /sys/devices/virtual/thermal/thermal_zone0/temp
+-33000
++34000
+ /sys/devices/virtual/thermal/thermal_zone0/type
+ mtktsbattery
+ /sys/devices/virtual/thermal/thermal_zone0/uevent
+@@ -11719,7 +11866,7 @@ disabled
+ /sys/devices/virtual/thermal/thermal_zone1/policy
+ backward_compatible
+ /sys/devices/virtual/thermal/thermal_zone1/temp
+-41000
++39000
+ /sys/devices/virtual/thermal/thermal_zone1/trip_point_0_temp
+ 117000
+ /sys/devices/virtual/thermal/thermal_zone1/trip_point_0_type
+@@ -11761,7 +11908,7 @@ disabled
+ /sys/devices/virtual/thermal/thermal_zone3/policy
+ backward_compatible
+ /sys/devices/virtual/thermal/thermal_zone3/temp
+-35281
++34696
+ /sys/devices/virtual/thermal/thermal_zone3/type
+ mtktspmic
+ /sys/devices/virtual/thermal/thermal_zone3/uevent
+@@ -11803,7 +11950,7 @@ mtktswmt
+ /sys/devices/virtual/thermal/thermal_zone5/policy
+ backward_compatible
+ /sys/devices/virtual/thermal/thermal_zone5/temp
+-33000
++34000
+ /sys/devices/virtual/thermal/thermal_zone5/type
+ battery
+ /sys/devices/virtual/thermal/thermal_zone5/uevent
+@@ -11812,7 +11959,7 @@ battery
+ /sys/devices/virtual/timed_output/vibrator/uevent
+ /sys/devices/virtual/timed_output/vibrator/vibr_on
+ /sys/devices/virtual/tty/console/active
+-ttyMT0
++tty0 ttyMT0
+ /sys/devices/virtual/tty/console/dev
+ 5:1
+ /sys/devices/virtual/tty/console/uevent
+@@ -11929,6 +12076,392 @@ MAJOR=5
+ MINOR=0
+ DEVNAME=tty
+ DEVMODE=0666
++/sys/devices/virtual/tty/tty0/active
++tty1
++/sys/devices/virtual/tty/tty0/dev
++4:0
++/sys/devices/virtual/tty/tty0/uevent
++MAJOR=4
++MINOR=0
++DEVNAME=tty0
++/sys/devices/virtual/tty/tty1/dev
++4:1
++/sys/devices/virtual/tty/tty1/uevent
++MAJOR=4
++MINOR=1
++DEVNAME=tty1
++/sys/devices/virtual/tty/tty10/dev
++4:10
++/sys/devices/virtual/tty/tty10/uevent
++MAJOR=4
++MINOR=10
++DEVNAME=tty10
++/sys/devices/virtual/tty/tty11/dev
++4:11
++/sys/devices/virtual/tty/tty11/uevent
++MAJOR=4
++MINOR=11
++DEVNAME=tty11
++/sys/devices/virtual/tty/tty12/dev
++4:12
++/sys/devices/virtual/tty/tty12/uevent
++MAJOR=4
++MINOR=12
++DEVNAME=tty12
++/sys/devices/virtual/tty/tty13/dev
++4:13
++/sys/devices/virtual/tty/tty13/uevent
++MAJOR=4
++MINOR=13
++DEVNAME=tty13
++/sys/devices/virtual/tty/tty14/dev
++4:14
++/sys/devices/virtual/tty/tty14/uevent
++MAJOR=4
++MINOR=14
++DEVNAME=tty14
++/sys/devices/virtual/tty/tty15/dev
++4:15
++/sys/devices/virtual/tty/tty15/uevent
++MAJOR=4
++MINOR=15
++DEVNAME=tty15
++/sys/devices/virtual/tty/tty16/dev
++4:16
++/sys/devices/virtual/tty/tty16/uevent
++MAJOR=4
++MINOR=16
++DEVNAME=tty16
++/sys/devices/virtual/tty/tty17/dev
++4:17
++/sys/devices/virtual/tty/tty17/uevent
++MAJOR=4
++MINOR=17
++DEVNAME=tty17
++/sys/devices/virtual/tty/tty18/dev
++4:18
++/sys/devices/virtual/tty/tty18/uevent
++MAJOR=4
++MINOR=18
++DEVNAME=tty18
++/sys/devices/virtual/tty/tty19/dev
++4:19
++/sys/devices/virtual/tty/tty19/uevent
++MAJOR=4
++MINOR=19
++DEVNAME=tty19
++/sys/devices/virtual/tty/tty2/dev
++4:2
++/sys/devices/virtual/tty/tty2/uevent
++MAJOR=4
++MINOR=2
++DEVNAME=tty2
++/sys/devices/virtual/tty/tty20/dev
++4:20
++/sys/devices/virtual/tty/tty20/uevent
++MAJOR=4
++MINOR=20
++DEVNAME=tty20
++/sys/devices/virtual/tty/tty21/dev
++4:21
++/sys/devices/virtual/tty/tty21/uevent
++MAJOR=4
++MINOR=21
++DEVNAME=tty21
++/sys/devices/virtual/tty/tty22/dev
++4:22
++/sys/devices/virtual/tty/tty22/uevent
++MAJOR=4
++MINOR=22
++DEVNAME=tty22
++/sys/devices/virtual/tty/tty23/dev
++4:23
++/sys/devices/virtual/tty/tty23/uevent
++MAJOR=4
++MINOR=23
++DEVNAME=tty23
++/sys/devices/virtual/tty/tty24/dev
++4:24
++/sys/devices/virtual/tty/tty24/uevent
++MAJOR=4
++MINOR=24
++DEVNAME=tty24
++/sys/devices/virtual/tty/tty25/dev
++4:25
++/sys/devices/virtual/tty/tty25/uevent
++MAJOR=4
++MINOR=25
++DEVNAME=tty25
++/sys/devices/virtual/tty/tty26/dev
++4:26
++/sys/devices/virtual/tty/tty26/uevent
++MAJOR=4
++MINOR=26
++DEVNAME=tty26
++/sys/devices/virtual/tty/tty27/dev
++4:27
++/sys/devices/virtual/tty/tty27/uevent
++MAJOR=4
++MINOR=27
++DEVNAME=tty27
++/sys/devices/virtual/tty/tty28/dev
++4:28
++/sys/devices/virtual/tty/tty28/uevent
++MAJOR=4
++MINOR=28
++DEVNAME=tty28
++/sys/devices/virtual/tty/tty29/dev
++4:29
++/sys/devices/virtual/tty/tty29/uevent
++MAJOR=4
++MINOR=29
++DEVNAME=tty29
++/sys/devices/virtual/tty/tty3/dev
++4:3
++/sys/devices/virtual/tty/tty3/uevent
++MAJOR=4
++MINOR=3
++DEVNAME=tty3
++/sys/devices/virtual/tty/tty30/dev
++4:30
++/sys/devices/virtual/tty/tty30/uevent
++MAJOR=4
++MINOR=30
++DEVNAME=tty30
++/sys/devices/virtual/tty/tty31/dev
++4:31
++/sys/devices/virtual/tty/tty31/uevent
++MAJOR=4
++MINOR=31
++DEVNAME=tty31
++/sys/devices/virtual/tty/tty32/dev
++4:32
++/sys/devices/virtual/tty/tty32/uevent
++MAJOR=4
++MINOR=32
++DEVNAME=tty32
++/sys/devices/virtual/tty/tty33/dev
++4:33
++/sys/devices/virtual/tty/tty33/uevent
++MAJOR=4
++MINOR=33
++DEVNAME=tty33
++/sys/devices/virtual/tty/tty34/dev
++4:34
++/sys/devices/virtual/tty/tty34/uevent
++MAJOR=4
++MINOR=34
++DEVNAME=tty34
++/sys/devices/virtual/tty/tty35/dev
++4:35
++/sys/devices/virtual/tty/tty35/uevent
++MAJOR=4
++MINOR=35
++DEVNAME=tty35
++/sys/devices/virtual/tty/tty36/dev
++4:36
++/sys/devices/virtual/tty/tty36/uevent
++MAJOR=4
++MINOR=36
++DEVNAME=tty36
++/sys/devices/virtual/tty/tty37/dev
++4:37
++/sys/devices/virtual/tty/tty37/uevent
++MAJOR=4
++MINOR=37
++DEVNAME=tty37
++/sys/devices/virtual/tty/tty38/dev
++4:38
++/sys/devices/virtual/tty/tty38/uevent
++MAJOR=4
++MINOR=38
++DEVNAME=tty38
++/sys/devices/virtual/tty/tty39/dev
++4:39
++/sys/devices/virtual/tty/tty39/uevent
++MAJOR=4
++MINOR=39
++DEVNAME=tty39
++/sys/devices/virtual/tty/tty4/dev
++4:4
++/sys/devices/virtual/tty/tty4/uevent
++MAJOR=4
++MINOR=4
++DEVNAME=tty4
++/sys/devices/virtual/tty/tty40/dev
++4:40
++/sys/devices/virtual/tty/tty40/uevent
++MAJOR=4
++MINOR=40
++DEVNAME=tty40
++/sys/devices/virtual/tty/tty41/dev
++4:41
++/sys/devices/virtual/tty/tty41/uevent
++MAJOR=4
++MINOR=41
++DEVNAME=tty41
++/sys/devices/virtual/tty/tty42/dev
++4:42
++/sys/devices/virtual/tty/tty42/uevent
++MAJOR=4
++MINOR=42
++DEVNAME=tty42
++/sys/devices/virtual/tty/tty43/dev
++4:43
++/sys/devices/virtual/tty/tty43/uevent
++MAJOR=4
++MINOR=43
++DEVNAME=tty43
++/sys/devices/virtual/tty/tty44/dev
++4:44
++/sys/devices/virtual/tty/tty44/uevent
++MAJOR=4
++MINOR=44
++DEVNAME=tty44
++/sys/devices/virtual/tty/tty45/dev
++4:45
++/sys/devices/virtual/tty/tty45/uevent
++MAJOR=4
++MINOR=45
++DEVNAME=tty45
++/sys/devices/virtual/tty/tty46/dev
++4:46
++/sys/devices/virtual/tty/tty46/uevent
++MAJOR=4
++MINOR=46
++DEVNAME=tty46
++/sys/devices/virtual/tty/tty47/dev
++4:47
++/sys/devices/virtual/tty/tty47/uevent
++MAJOR=4
++MINOR=47
++DEVNAME=tty47
++/sys/devices/virtual/tty/tty48/dev
++4:48
++/sys/devices/virtual/tty/tty48/uevent
++MAJOR=4
++MINOR=48
++DEVNAME=tty48
++/sys/devices/virtual/tty/tty49/dev
++4:49
++/sys/devices/virtual/tty/tty49/uevent
++MAJOR=4
++MINOR=49
++DEVNAME=tty49
++/sys/devices/virtual/tty/tty5/dev
++4:5
++/sys/devices/virtual/tty/tty5/uevent
++MAJOR=4
++MINOR=5
++DEVNAME=tty5
++/sys/devices/virtual/tty/tty50/dev
++4:50
++/sys/devices/virtual/tty/tty50/uevent
++MAJOR=4
++MINOR=50
++DEVNAME=tty50
++/sys/devices/virtual/tty/tty51/dev
++4:51
++/sys/devices/virtual/tty/tty51/uevent
++MAJOR=4
++MINOR=51
++DEVNAME=tty51
++/sys/devices/virtual/tty/tty52/dev
++4:52
++/sys/devices/virtual/tty/tty52/uevent
++MAJOR=4
++MINOR=52
++DEVNAME=tty52
++/sys/devices/virtual/tty/tty53/dev
++4:53
++/sys/devices/virtual/tty/tty53/uevent
++MAJOR=4
++MINOR=53
++DEVNAME=tty53
++/sys/devices/virtual/tty/tty54/dev
++4:54
++/sys/devices/virtual/tty/tty54/uevent
++MAJOR=4
++MINOR=54
++DEVNAME=tty54
++/sys/devices/virtual/tty/tty55/dev
++4:55
++/sys/devices/virtual/tty/tty55/uevent
++MAJOR=4
++MINOR=55
++DEVNAME=tty55
++/sys/devices/virtual/tty/tty56/dev
++4:56
++/sys/devices/virtual/tty/tty56/uevent
++MAJOR=4
++MINOR=56
++DEVNAME=tty56
++/sys/devices/virtual/tty/tty57/dev
++4:57
++/sys/devices/virtual/tty/tty57/uevent
++MAJOR=4
++MINOR=57
++DEVNAME=tty57
++/sys/devices/virtual/tty/tty58/dev
++4:58
++/sys/devices/virtual/tty/tty58/uevent
++MAJOR=4
++MINOR=58
++DEVNAME=tty58
++/sys/devices/virtual/tty/tty59/dev
++4:59
++/sys/devices/virtual/tty/tty59/uevent
++MAJOR=4
++MINOR=59
++DEVNAME=tty59
++/sys/devices/virtual/tty/tty6/dev
++4:6
++/sys/devices/virtual/tty/tty6/uevent
++MAJOR=4
++MINOR=6
++DEVNAME=tty6
++/sys/devices/virtual/tty/tty60/dev
++4:60
++/sys/devices/virtual/tty/tty60/uevent
++MAJOR=4
++MINOR=60
++DEVNAME=tty60
++/sys/devices/virtual/tty/tty61/dev
++4:61
++/sys/devices/virtual/tty/tty61/uevent
++MAJOR=4
++MINOR=61
++DEVNAME=tty61
++/sys/devices/virtual/tty/tty62/dev
++4:62
++/sys/devices/virtual/tty/tty62/uevent
++MAJOR=4
++MINOR=62
++DEVNAME=tty62
++/sys/devices/virtual/tty/tty63/dev
++4:63
++/sys/devices/virtual/tty/tty63/uevent
++MAJOR=4
++MINOR=63
++DEVNAME=tty63
++/sys/devices/virtual/tty/tty7/dev
++4:7
++/sys/devices/virtual/tty/tty7/uevent
++MAJOR=4
++MINOR=7
++DEVNAME=tty7
++/sys/devices/virtual/tty/tty8/dev
++4:8
++/sys/devices/virtual/tty/tty8/uevent
++MAJOR=4
++MINOR=8
++DEVNAME=tty8
++/sys/devices/virtual/tty/tty9/dev
++4:9
++/sys/devices/virtual/tty/tty9/uevent
++MAJOR=4
++MINOR=9
++DEVNAME=tty9
+ /sys/devices/virtual/tty/ttyGS0/dev
+ 232:0
+ /sys/devices/virtual/tty/ttyGS0/uevent
+@@ -12073,6 +12606,95 @@ DEVNAME=ttype
+ MAJOR=3
+ MINOR=15
+ DEVNAME=ttypf
++/sys/devices/virtual/vc/vcs/dev
++7:0
++/sys/devices/virtual/vc/vcs/uevent
++MAJOR=7
++MINOR=0
++DEVNAME=vcs
++/sys/devices/virtual/vc/vcs1/dev
++7:1
++/sys/devices/virtual/vc/vcs1/uevent
++MAJOR=7
++MINOR=1
++DEVNAME=vcs1
++/sys/devices/virtual/vc/vcs2/dev
++7:2
++/sys/devices/virtual/vc/vcs2/uevent
++MAJOR=7
++MINOR=2
++DEVNAME=vcs2
++/sys/devices/virtual/vc/vcs3/dev
++7:3
++/sys/devices/virtual/vc/vcs3/uevent
++MAJOR=7
++MINOR=3
++DEVNAME=vcs3
++/sys/devices/virtual/vc/vcs4/dev
++7:4
++/sys/devices/virtual/vc/vcs4/uevent
++MAJOR=7
++MINOR=4
++DEVNAME=vcs4
++/sys/devices/virtual/vc/vcs5/dev
++7:5
++/sys/devices/virtual/vc/vcs5/uevent
++MAJOR=7
++MINOR=5
++DEVNAME=vcs5
++/sys/devices/virtual/vc/vcs6/dev
++7:6
++/sys/devices/virtual/vc/vcs6/uevent
++MAJOR=7
++MINOR=6
++DEVNAME=vcs6
++/sys/devices/virtual/vc/vcsa/dev
++7:128
++/sys/devices/virtual/vc/vcsa/uevent
++MAJOR=7
++MINOR=128
++DEVNAME=vcsa
++/sys/devices/virtual/vc/vcsa1/dev
++7:129
++/sys/devices/virtual/vc/vcsa1/uevent
++MAJOR=7
++MINOR=129
++DEVNAME=vcsa1
++/sys/devices/virtual/vc/vcsa2/dev
++7:130
++/sys/devices/virtual/vc/vcsa2/uevent
++MAJOR=7
++MINOR=130
++DEVNAME=vcsa2
++/sys/devices/virtual/vc/vcsa3/dev
++7:131
++/sys/devices/virtual/vc/vcsa3/uevent
++MAJOR=7
++MINOR=131
++DEVNAME=vcsa3
++/sys/devices/virtual/vc/vcsa4/dev
++7:132
++/sys/devices/virtual/vc/vcsa4/uevent
++MAJOR=7
++MINOR=132
++DEVNAME=vcsa4
++/sys/devices/virtual/vc/vcsa5/dev
++7:133
++/sys/devices/virtual/vc/vcsa5/uevent
++MAJOR=7
++MINOR=133
++DEVNAME=vcsa5
++/sys/devices/virtual/vc/vcsa6/dev
++7:134
++/sys/devices/virtual/vc/vcsa6/uevent
++MAJOR=7
++MINOR=134
++DEVNAME=vcsa6
++/sys/devices/virtual/vtconsole/vtcon0/bind
++1
++/sys/devices/virtual/vtconsole/vtcon0/name
++(S) dummy device
++/sys/devices/virtual/vtconsole/vtcon0/uevent
+ /sys/devices/virtual/workqueue/uevent
+ /sys/devices/virtual/workqueue/writeback/cpumask
+ 0f
+@@ -12111,4 +12733,4 @@ CPU part	: 0xd03
+ CPU revision	: 3
+ 
+ Hardware	: MT6735
+-console=tty0 console=ttyMT0,921600n1 root=/dev/ram vmalloc=496M androidboot.hardware=mt6735 slub_max_order=0 slub_debug=O bootopt=64S3,32N2,64N2 androidboot.selinux=permissive buildvariant=eng lcm=1-otm1285a_dsi_vdo_tm fps=5795 vram=13172736 printk.disable_uart=1 bootprof.pl_t=4026 bootprof.lk_t=3621 boot_reason=0 androidboot.serialno=88HKBN522BKJ androidboot.psn=88116K110B16 androidboot.colortype=M81A androidboot.sw_version=0x57851402 androidboot.hw_version=NULL androidboot.lstate=2 androidboot.rstate=2 androidboot.bootreason=power_key gpt=1
++console=tty0 console=ttyMT0,921600n1 root=/dev/ram vmalloc=496M androidboot.hardware=mt6735 slub_max_order=0 slub_debug=O bootopt=64S3,32N2,64N2 androidboot.selinux=permissive buildvariant=userdebug lcm=1-otm1285a_dsi_vdo_tm fps=5795 vram=13172736 printk.disable_uart=1 bootprof.pl_t=4241 bootprof.lk_t=4555 boot_reason=4 androidboot.serialno=88HKBN522BKJ androidboot.psn=88116K110B16 androidboot.colortype=M81A androidboot.sw_version=0x57851402 androidboot.hw_version=NULL androidboot.lstate=2 androidboot.rstate=2 androidboot.bootreason=wdt_by_pass_pwk gpt=1
